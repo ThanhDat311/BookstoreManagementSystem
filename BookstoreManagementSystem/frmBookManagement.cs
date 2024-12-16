@@ -181,11 +181,6 @@ namespace BookstoreManagementSystem
             bool validate = this.ValidateInput();
             if (!validate)
                 return;
-            // Validate the input fields
-            if (ValidateInput())
-            {
-                return; // If validation fails, exit the method
-            }
 
             if (lvBook.SelectedItems.Count > 0)
             {
